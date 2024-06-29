@@ -1,0 +1,213 @@
+/*
+* Style for the change in Customizer
+*/
+
+/* Header top Switch Position */
+div#switch_call_to_action {
+    text-align: right;
+}
+
+div#switch_social {
+    text-align: left;
+}
+
+div#switch_social a:first-child {
+    padding-left: 0;
+}
+/*============= Header Layout Sections ============ */
+/* Center split */
+.center-split-left ul#primary-menu li, .center-split-right ul#secondary-menu li, .center-split-right ul#special_center_split_menu li
+{
+    float: none !important;
+    display: inline-block;
+}
+.center-split-left{
+    text-align: right;
+}
+.center-split-right{
+    text-align: left;
+    float: left;
+}
+/*
+* Center layout
+*/
+div#center h1 {
+    text-align: center;
+}
+
+div#center .site-description {
+    text-align: center;
+}
+.center-layout-menu ul li {
+    float: none !important;
+    display: inline-block;
+}
+
+.center-layout-menu {
+    text-align: center;
+}
+
+.center-layout-menu ul li .sub-menu li {
+    width: 100%;
+    text-align: left;
+}
+.center-layout-menu #primary-menu {
+    padding: 0;
+    min-height: 45px;
+}
+/*
+* Left + left-html
+*/
+.left-html-menu {
+    text-align: left;
+}
+
+.left-html-menu #primary-menu {
+    min-height: 40px;
+}
+.left-html-menu {
+    margin-bottom: -10px;
+}
+/*
+* Modern Layout
+*/
+.modern-layout #primary-menu {
+    text-align: left;
+    float: right;
+}
+
+.modern-layout #primary-menu li:last-child a {
+    padding-right: 0;
+}
+/*
+* Center-Split
+*/
+div#center_split {
+    text-align: center;
+}
+div#center_split h1 {
+    text-align: center;
+}
+
+div#center_split .site-description {
+    text-align: center;
+}
+
+/*
+* Icons-Mobile
+*/
+.icons-mobile{
+    right: 0px;
+    width: 100%;
+}
+/*
+* HTML-Mobile
+*/
+div#html_mobile {
+    right: 0;
+}
+.html_content {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 14px;
+    color: #777777;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    font-family: 'Karla',sens-serif;
+}
+/*
+* Icon - Mobile
+*/
+
+.main_header_social_icons_left{
+    text-align: left !important;
+}
+
+
+/*
+* Left - HTML
+*/
+.left-html-menu #primary-menu {
+    padding: 0 !important;
+}
+/*
+* Mobile - HTML
+*/
+div#mobile_html_logo h1, div#mobile_html_logo .site-description {
+    text-align: center;
+}
+.mobile-html {
+    width: 100%;
+}
+#mobile_html i{
+left: 0px;
+}
+/*
+* Mobile - Icons
+*/
+.main_header_social_icons {
+    text-align: right;
+}
+div#mobile_icons_logo h1, div#mobile_icons_logo p{
+    text-align: center;
+}
+.mobile-icons {
+    width: 100%;
+}
+#mobile_icons i{
+left: 0px;
+}
+.mobile-icons-primary {
+    float: right;
+}
+
+.mobile-icons-primary #primary-menu li:last-child a {
+    padding-right: 0;
+}
+/*
+* Modern Mobile ( Primary Menu )
+*/
+.main_header_social_icons_center{
+    text-align: center;
+}
+.modern-mobile #primary-menu {
+    text-align: center !important;
+}
+
+.modern-mobile #primary-menu li {
+    float: none !important;
+    display: inline-block !important;
+}
+.modern-mobile ul#primary-menu .sub-menu li {
+    float: left !important;
+    width: 100% !important;
+    text-align: left !important;
+}
+.modern-mobile ul#primary-menu li:first-child a{
+    padding-left: 15px;
+}
+.modern-mobile ul#primary-menu .sub-menu li:first-child a{
+    padding-left: 10px;
+}
+/*
+* Mobile search
+*/
+#mobile_search_form .search_form {
+    width: 100% !important;
+}
+/*
+* Modern Search
+*/
+#search_icon_width{
+    width: 300%;
+}
+/*
+* Search-Mobile 
+*/
+#search_mobile{
+    text-align: center;
+}
+#search_mobile .search_form{
+    width: 100% !important;
+}
